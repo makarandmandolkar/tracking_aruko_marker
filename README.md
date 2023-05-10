@@ -13,30 +13,26 @@ This Python script detects the presence and movement of a specific ArUco marker 
 1. Install Python 3.x from the [official Python website](https://www.python.org/downloads/).
 
 2. Install the required packages using pip:
-
    ```bash
    pip install opencv-python numpy
 
 
 
-Usage
+## Usage
 Connect a webcam to your computer.
 
-Clone this repository:
+## Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/aruco-marker-detection.git
 
-bash
-Copy code
-git clone https://github.com/your-username/aruco-marker-detection.git
-Navigate to the project directory:
+## Navigate to the project directory:
+   ```bash
+   cd aruco-marker-detection
 
-bash
-Copy code
-cd aruco-marker-detection
-Run the script:
+## Run the script:
+   ```bash
+   python aruco_marker_detection.py
 
-bash
-Copy code
-python aruco_marker_detection.py
 The script will open a window displaying the webcam feed. It will detect and track the movement of a specific ArUco marker. If the marker remains stationary for more than 2 seconds, it will print its position in the terminal.
 
 Press 'q' to quit the script.
