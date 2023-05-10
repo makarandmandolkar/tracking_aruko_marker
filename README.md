@@ -35,16 +35,16 @@ The script will open a window displaying the webcam feed. It will detect and tra
 
 5. Press 'q' to quit the script.
 
-Customization
+## Customization
 Desired Marker Type: By default, the script detects a specific ArUco marker type defined by the dictionary and marker ID. You can modify the desired_marker_id variable in the script to specify the desired marker ID.
 
 Threshold: You can adjust the distance threshold (dist > 10) in the script to control the sensitivity of movement detection. Increase the threshold value to make it less sensitive, and decrease it to make it more sensitive.
 
-License
+## License
 This project is licensed under the MIT License.
 
-Acknowledgements
+## Acknowledgements
 The ArUco marker detection is implemented using the OpenCV library.
 ArUco markers are a popular choice for computer vision applications and are widely used for augmented reality and marker-based tracking.
 
-Make sure to replace "your-username" in the clone command with your actual GitHub username. Additionally, you can modify the "Acknowledgements" section and add any relevant acknowledgements or credits for the project.
+
