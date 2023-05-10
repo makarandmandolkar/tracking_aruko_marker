@@ -29,7 +29,7 @@ This Python script detects the presence and movement of a specific ArUco marker 
 
 4. Run the script:
    ```bash
-   python aruco_marker_detection.py
+   python aruco_movement_detector.py
 
 The script will open a window displaying the webcam feed. It will detect and track the movement of a specific ArUco marker. If the marker remains stationary for more than 2 seconds, it will print its position in the terminal.
 
