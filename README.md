@@ -21,7 +21,7 @@ This Python script detects the presence and movement of a specific ArUco marker 
 
 2. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/aruco-marker-detection.git
+   git clone https://github.com/makarandmandolkar/tracking_aruko_marker.git
 
 3. Navigate to the project directory:
    ```bash
